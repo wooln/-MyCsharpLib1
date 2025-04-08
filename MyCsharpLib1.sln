@@ -2,7 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCsharpLib1", "MyCsharpLib1.csproj", "{95EDE8C3-669A-4DD4-4D73-E2D455B9ADDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCsharpLib1", "./MyCsharpLib1/MyCsharpLib1.csproj", "{95EDE8C3-669A-4DD4-4D73-E2D455B9ADDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCsharpLib1.Tests", "MyCsharpLib1.Tests\MyCsharpLib1.Tests.csproj", "{39857D33-09F5-4A3D-9F5D-18A45123F2AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +16,10 @@ Global
 		{95EDE8C3-669A-4DD4-4D73-E2D455B9ADDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95EDE8C3-669A-4DD4-4D73-E2D455B9ADDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95EDE8C3-669A-4DD4-4D73-E2D455B9ADDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39857D33-09F5-4A3D-9F5D-18A45123F2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39857D33-09F5-4A3D-9F5D-18A45123F2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39857D33-09F5-4A3D-9F5D-18A45123F2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39857D33-09F5-4A3D-9F5D-18A45123F2AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
