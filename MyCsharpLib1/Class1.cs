@@ -21,6 +21,9 @@ public class Class1
     /// <returns></returns>
     public static int Subtract(int a, int b)
     {
+        #if DEBUG
+        return a - b - 1;
+        #endif
         return a - b;
     }
 }
